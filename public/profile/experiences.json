@@ -1,33 +1,38 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Backend Engineer",
+            "subtitle": "interface.ai",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Built an ETL pipeline to map user intents and identify supported/unsupported intents for product feedback at scale. Leveraged GPT chat completion API for context-based labeling and automated ingestion, labeling, and exporting, optimizing data handling with a replicated database.",
+                "Developed and composed an ASR component using Python and Azure STT models, leveraging LLMs to improve call efficiency by 40%. Devised a training pipeline to enhance model accuracy.",
+              "Led feature development and enhancement of the core engine handling financial AI queries with async Node.js. Ensured continual robustness and refinement for new functionalities.",
+              "Implemented voice biometric authentication for users, improving security and ensuring smooth integration with different banking cores."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "07/2023 - Present"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
+            "title": "Full Stack developer",
+            "subtitle": "Tekmonks Inc",
+            "workType": "Full-Time",
             "workDescription": [
-                "Worked on abc."
+                "Drove an in-house agents system to track metrics like CPU, OS, RAM, memory, and system health. Added real time monitoring for frontend engines too.",
+                "Initiated and refined an in-house framework for building web components; streamlined development processes, resulting in 30% reduction in time-to-market for new features.",
+                "Designed a real time monitoring dashboard using react, utilizing access logs to mitigate prominent cyber threats, such as DDoS attacks and SQL injections, on a high-traffic platform."
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "05/2022 - 06/2023"
         },
         {
             "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
+            "subtitle": "miniOrange",
             "workType": "Freelance",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Embedded OTP verification at critical touchpoints, boosting security and user experience.",
+                "Created Shopify and WordPress 2FA plugins that seamlessly integrated with 30+ forms using Python.",
+                "Integrated test modules for multiple SMS gateways like Twilio, SendGrid etc."
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "09/2020 - 04/2022"
         }
     ]
 }

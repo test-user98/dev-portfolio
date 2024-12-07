@@ -2,56 +2,47 @@
     "projects" : [
         {
             "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "title": "QnA Agent",
+            "bodyText": "This is an Frontline agent, just give the webiste link it will scrape everything that links to this website,\n and will train the Model using RAG pipeline and will work like a QnA agent.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
-                }
-            ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
-            ]
-        },
-        {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
-                {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "href": "https://github.com/test-user98/qna-agent"
                 }
             ],
             "tags" : [
                 "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "Embeddings",
+                "Langchain",
+                "Chroma DB",
+                "Mistral AI"
+            ]
+        },
+        {
+            "image" : "images/projects/caaring-poster.png",
+            "title": "Voice AI Assitant",
+            "bodyText": "A receptionist that helps you to book, schedule, cancel appointments.\n It works like conversational AI, you can conversate about life and other things too.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/test-user98/ai-assitant"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "google TTS",
+                "speechRecognition",
+                "GPT"
             ]
         },
         {
             "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "title": "Ecommerce Crawler",
+            "bodyText": "EcommerceCrawler is an asynchronous web crawler designed to extract product URLs and their metadata from e-commerce domains.\n Will track the prices and notify the users for a change. \n Integrated telegram for notification. ",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                    "href": "https://github.com/test-user98/ecommerce-crawler"
                 }
             ],
             "tags" : [
@@ -62,57 +53,49 @@
             ]
         },
         {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
+            "title": "AI Headshot generator",
+            "bodyText": "Give the prompt and have a professional face generated for your face.\n - Different training and testing server to train and test images.\n - Files can be uploaded in zip format.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
+                    "href": "https://github.com/test-user98/AI-Headshot-generator"
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
+                "Nodejs",
+                "express",
+                "Firebase"
             ]
         },
         {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
+            "title": "Podcast Summarizer",
+            "bodyText": "- A Tool to trascribe and summarize any video, youtube channel\n - Summarise the data points in a compact manner.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
+                    "href": "https://github.com/test-user98/pod-trans-summarizer"
                 }
             ],
             "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
+                "Python",
+                "Gemini",
+                "Assembly AI",
+                "Postgres"
             ]
         },
         {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
+            "title": "AI Powered Data extraction from Invoice",
+            "bodyText": "Extracting informations from PDFs especially from invoice data is a complicated process.\n This tool will help us to get the required informations from the document in seconds and store it in a tabular form so that we can download it and use for analysis.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
+                    "href": "https://github.com/test-user98/invoice-extractor"
                 }
             ],
             "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
+                "PyTorch",
+                "Gen AI",
+                "mongoDB"
             ]
         },
         {
@@ -131,19 +114,18 @@
             ]
         },
         {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
+            "title": "Defi React APP",
+            "bodyText": "- Made a Defi application using React with tailwind CSS.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
+                    "text": "Upwork",
+                    "href": "https://www.upwork.com/freelancers/~015fa45c2715d01858?p=1609804401753419776"
                 }
             ],
             "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
+                "ReactJS",
+                "Tailwind",
+                "Firebase"
             ]
         }
     ]
